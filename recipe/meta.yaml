@@ -32,6 +32,7 @@ requirements:
     - requests
     - numba
     - paramtools >=0.20.0
+    - behresp
     - aiohttp
     - setuptools
 
