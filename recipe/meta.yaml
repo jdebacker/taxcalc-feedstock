@@ -1,6 +1,6 @@
 {% set name = "taxcalc" %}
-{% set version = "6.8.0" %}
-{% set python_min = "3.11" %}
+{% set version = "6.8.1" %}
+{% set python_min = "3.12" %}
 {% set python_max = "3.14" %}
 
 
@@ -26,9 +26,9 @@ requirements:
 
   run:
     - python >={{ python_min }},<{{ python_max }}
-    - numpy >=1.26
-    - pandas >=2.2
-    - bokeh >=2.4
+    - numpy >=2.4
+    - pandas >=3.0
+    - bokeh >=3.7
     - requests
     - numba
     - paramtools >=0.20.0
